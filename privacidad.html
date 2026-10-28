@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Política de privacidad de Video Automate: qué datos de YouTube, Instagram y TikTok usa, para qué, dónde se guardan, cuánto tiempo, cómo revocar el acceso y cómo se borran.">
+<title>Política de privacidad · Video Automate</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#ffffff;
+  --fg:#1f2328;
+  --muted:#4f5864;
+  --line:#d0d7de;
+  --card:#f6f8fa;
+  --link:#0550ae;
+  --accent:#0969da;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1117;
+    --fg:#e6edf3;
+    --muted:#9da7b3;
+    --line:#30363d;
+    --card:#151b23;
+    --link:#79c0ff;
+    --accent:#58a6ff;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-wrap:break-word}
+.wrap{max-width:46rem;margin:0 auto;padding-left:1rem;padding-right:1rem}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-top:.9rem;padding-bottom:.9rem}
+.brand{font-weight:700;font-size:1.1rem;color:var(--fg);text-decoration:none}
+header nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:0;padding:0}
+header nav li{margin:0}
+header nav a[aria-current="page"]{color:var(--fg);font-weight:600;text-decoration:none}
+main{padding-top:1.75rem;padding-bottom:2.5rem}
+h1{font-size:clamp(1.6rem,6vw,2.1rem);line-height:1.2;margin:0 0 .6rem}
+h2{font-size:1.3rem;line-height:1.3;margin:2.2rem 0 .5rem}
+h3{font-size:1.07rem;line-height:1.35;margin:1.4rem 0 .3rem}
+p,ul,ol{margin:.65rem 0}
+li{margin:.35rem 0}
+a{color:var(--link);text-underline-offset:.16em;overflow-wrap:anywhere}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:2px}
+code{font:.88em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:.05em .35em;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.lead{font-size:1.1rem;color:var(--muted)}
+.meta{color:var(--muted);font-size:.92rem;margin:.4rem 0}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.75rem 1rem;margin:1.25rem 0}
+.toc p{margin:0 0 .3rem}
+.toc ol{margin:.2rem 0;padding-left:1.4rem}
+.toc li{margin:.15rem 0}
+section section{margin-top:.5rem}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+footer .wrap{padding-top:1rem;padding-bottom:1.75rem}
+footer p{margin:.4rem 0}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<a class="brand" href="index.html">Video Automate</a>
+<nav aria-label="Navegación principal">
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="privacidad.html" aria-current="page">Privacidad</a></li>
+<li><a href="terminos.html">Condiciones</a></li>
+<li><a href="privacy.html" lang="en" hreflang="en">English</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>Política de privacidad</h1>
+<p class="lead">Qué datos usa Video Automate, para qué, dónde se guardan, cuánto tiempo se conservan y cómo revocar el acceso.</p>
+<p class="meta">Última actualización: <time datetime="2026-10-15">15 de octubre de 2026</time></p>
+<nav class="toc" aria-label="En esta página">
+<p><strong>En esta página</strong></p>
+<ol>
+<li><a href="#resumen">Resumen</a></li>
+<li><a href="#responsable">Responsable y aceptación</a></li>
+<li><a href="#youtube-api">Servicios de la API de YouTube</a></li>
+<li><a href="#datos">Qué datos se usan</a></li>
+<li><a href="#finalidad">Para qué se usan los datos</a></li>
+<li><a href="#almacenamiento">Dónde se guardan</a></li>
+<li><a href="#conservacion">Cuánto tiempo se conservan</a></li>
+<li><a href="#comparticion">Con quién se comparten</a></li>
+<li><a href="#revocar">Cómo revocar el acceso</a></li>
+<li><a href="#borrado">Borrado de los datos</a></li>
+<li><a href="#politicas">Políticas de privacidad de las plataformas</a></li>
+<li><a href="#web">Esta web</a></li>
+<li><a href="#cambios">Cambios y contacto</a></li>
+</ol>
+</nav>
+<section id="resumen">
+<h2>Resumen</h2>
+<ul>
+<li>Video Automate es una herramienta de uso personal. La usa su titular, con sus propias cuentas, y no tiene usuarios externos.</li>
+<li>Usa los servicios de la API de YouTube y las API de Instagram y TikTok para publicar los vídeos del titular y leer sus métricas.</li>
+<li>Las claves de acceso y las métricas se guardan en el ordenador del titular. Las claves solo salen de él hacia la plataforma que las emitió.</li>
+<li>Los datos no se venden. Para analizarlas, algunas cifras de rendimiento se envían a los servicios de inteligencia artificial que usa el titular (Claude y Gemini).</li>
+<li>El acceso se puede revocar en cualquier momento y los datos se borran en un máximo de 30 días.</li>
+</ul>
+</section>
+<section id="responsable">
+<h2>Responsable y aceptación</h2>
+<p>El responsable del tratamiento de los datos es el titular de la herramienta Video Automate (en adelante, «el titular»). Contacto: <a href="mailto:akier.empresa@gmail.com">akier.empresa@gmail.com</a>.</p>
+<p>Esta política se aplica a los datos que Video Automate usa cuando se conecta una cuenta de YouTube, Instagram o TikTok. Al conectar una cuenta con Video Automate se acepta esta política.</p>
+</section>
+<section id="youtube-api">
+<h2>Servicios de la API de YouTube</h2>
+<p>Video Automate usa los servicios de la API de YouTube (YouTube API Services). Al conectar una cuenta de YouTube se aceptan las <a href="https://www.youtube.com/t/terms" rel="noopener noreferrer">Condiciones del Servicio de YouTube</a>.</p>
+<p>Los datos de la cuenta de Google se rigen además por la <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidad de Google</a>.</p>
+</section>
+<section id="datos">
+<h2>Qué datos se usan</h2>
+<p>Video Automate solo accede a las plataformas cuyas cuentas ha conectado el titular, y solo con los permisos que el titular acepta en la pantalla de autorización de cada plataforma. Son siempre datos de las cuentas y los vídeos del propio titular: la herramienta no accede a cuentas de otras personas y solo lee cifras agregadas de cada vídeo (por ejemplo, cuántos comentarios tiene), no el contenido de los comentarios ni datos personales de los espectadores.</p>
+<section id="datos-youtube">
+<h3>YouTube</h3>
+<ul>
+<li><strong>Permisos:</strong> subir vídeos al canal (<code>youtube.upload</code>), leer los datos y las estadísticas del canal y de sus vídeos (<code>youtube.readonly</code>) y ver los informes de YouTube Analytics del contenido del canal (<code>yt-analytics.readonly</code>).</li>
+<li><strong>Datos del canal:</strong> identificador y nombre del canal.</li>
+<li><strong>Vídeos propios:</strong> los vídeos que la herramienta publica en el canal: identificador, título, descripción, duración y estado de publicación.</li>
+<li><strong>Métricas:</strong> visualizaciones, «me gusta», número de comentarios, tiempo de visualización y retención, y suscriptores ganados.</li>
+</ul>
+<p>Aunque el permiso de lectura de Google es más amplio, la herramienta solo usa los datos descritos aquí.</p>
+</section>
+<section id="datos-instagram">
+<h3>Instagram</h3>
+<ul>
+<li><strong>Permisos</strong> (API de Instagram con inicio de sesión de Instagram, cuenta profesional): datos básicos de la cuenta (<code>instagram_business_basic</code>), publicar Reels (<code>instagram_business_content_publish</code>) y leer las métricas (<code>instagram_business_manage_insights</code>).</li>
+<li><strong>Datos de la cuenta:</strong> identificador, nombre de usuario y número de seguidores.</li>
+<li><strong>Vídeos propios:</strong> los Reels que la herramienta publica: identificador, descripción, fecha y enlace.</li>
+<li><strong>Métricas:</strong> visualizaciones, alcance, tiempo medio de reproducción, porcentaje de espectadores que saltan el vídeo al inicio, «me gusta», número de comentarios, compartidos y guardados.</li>
+</ul>
+</section>
+<section id="datos-tiktok">
+<h3>TikTok</h3>
+<ul>
+<li><strong>Permisos</strong> (API oficiales de TikTok: Login Kit, Content Posting API y Display API): perfil básico (<code>user.info.basic</code>), publicar vídeos o enviarlos como borrador (<code>video.publish</code>, <code>video.upload</code>) y listar los vídeos propios con sus cifras (<code>video.list</code>).</li>
+<li><strong>Datos de la cuenta:</strong> identificador y nombre visible del perfil.</li>
+<li><strong>Vídeos propios:</strong> los vídeos que la herramienta publica: identificador, descripción, duración y enlace.</li>
+<li><strong>Métricas:</strong> visualizaciones, «me gusta», comentarios y compartidos (cifras).</li>
+</ul>
+</section>
+</section>
+<section id="finalidad">
+<h2>Para qué se usan los datos</h2>
+<p>Solo para dos fines:</p>
+<ol>
+<li>Publicar los vídeos del titular en sus propias cuentas.</li>
+<li>Medir cómo funcionan esos vídeos para mejorar los vídeos siguientes.</li>
+</ol>
+<p>No se usan para publicidad, para elaborar perfiles de personas ni para ningún otro fin.</p>
+</section>
+<section id="almacenamiento">
+<h2>Dónde se guardan</h2>
+<p>Las claves de acceso (los códigos que cada plataforma entrega a la herramienta cuando el titular la autoriza) se guardan solo en el ordenador del titular, y no se envían a nadie salvo a la plataforma que las emitió, cuando la herramienta llama a su API. Las métricas se guardan en el ordenador del titular, en archivos y en una base de datos local. La herramienta no tiene un servidor propio.</p>
+</section>
+<section id="conservacion">
+<h2>Cuánto tiempo se conservan</h2>
+<ul>
+<li><strong>Datos de la API de YouTube:</strong> como máximo 30 días naturales sin comprobarse. Pasado ese plazo, la herramienta los vuelve a consultar a YouTube, comprobando que la autorización del titular sigue vigente y que el vídeo no se ha eliminado, o los borra.</li>
+<li><strong>Datos de Instagram y TikTok:</strong> mientras la cuenta siga conectada y sean necesarios para comparar los vídeos y decidir los siguientes. Se borran en un máximo de 30 días tras revocar el acceso.</li>
+<li><strong>Claves de acceso:</strong> mientras la cuenta siga conectada. Cuando se revoca el acceso dejan de servir y se borran.</li>
+</ul>
+</section>
+<section id="comparticion">
+<h2>Con quién se comparten</h2>
+<p>Los datos no se venden, no se alquilan ni se ceden, y no se usan para publicidad.</p>
+<p>Para analizar cómo funcionan los vídeos, la herramienta envía cifras de rendimiento de los vídeos del titular (por ejemplo, visualizaciones o retención) a los servicios de inteligencia artificial con los que trabaja el titular: Claude, de Anthropic, y Gemini, de Google. Esos servicios las procesan por cuenta del titular y según sus propias condiciones. Nunca se les envían claves de acceso ni datos personales de los espectadores.</p>
+</section>
+<section id="revocar">
+<h2>Cómo revocar el acceso</h2>
+<p>El acceso se puede revocar en cualquier momento, en cada plataforma. Al revocarlo, Video Automate deja de poder publicar y leer datos de esa cuenta. En las pantallas de permisos de las plataformas la aplicación aparece con el nombre «video-automate».</p>
+<section id="revocar-google">
+<h3>Google (YouTube)</h3>
+<p>Abre la <a href="https://security.google.com/settings/security/permissions" rel="noopener noreferrer">página de permisos de tu cuenta de Google</a>, selecciona «video-automate» y elimina su acceso.</p>
+</section>
+<section id="revocar-instagram">
+<h3>Instagram</h3>
+<p>En instagram.com: <code>More</code> › <code>Settings</code> › <code>Website permissions</code> › <code>Apps and websites</code> › <code>Active</code> › <code>Remove</code>, junto a «video-automate». Los menús se muestran en el idioma de la cuenta y sus nombres pueden variar; consulta la <a href="https://help.instagram.com/1144624522593085" rel="noopener noreferrer">ayuda de Instagram</a>.</p>
+</section>
+<section id="revocar-tiktok">
+<h3>TikTok</h3>
+<p>En la aplicación de TikTok: <code>Profile</code> › menú › <code>Settings and privacy</code> › <code>Security &amp; permissions</code> › <code>Apps and services permissions</code>, y quita «video-automate». Los nombres de los menús pueden variar; consulta la <a href="https://support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps" rel="noopener noreferrer">ayuda de TikTok</a>.</p>
+</section>
+</section>
+<section id="borrado">
+<h2>Borrado de los datos</h2>
+<p>Cuando se revoca el acceso a una cuenta, Video Automate borra los datos de esa cuenta que tiene guardados (claves de acceso, datos de la cuenta, información de los vídeos y métricas) lo antes posible y, en cualquier caso, en un máximo de 30 días naturales desde la revocación. Para ello comprueba periódicamente que cada autorización sigue vigente y borra los datos de las cuentas cuya autorización ya no puede renovar.</p>
+<p>También se puede pedir el borrado de los datos escribiendo a <a href="mailto:akier.empresa@gmail.com">akier.empresa@gmail.com</a>: se atiende en un máximo de 7 días naturales.</p>
+<p>Revocar el acceso no elimina los vídeos que ya están publicados en las plataformas: siguen en las cuentas del titular y se gestionan desde cada plataforma.</p>
+</section>
+<section id="politicas">
+<h2>Políticas de privacidad de las plataformas</h2>
+<p>Cada plataforma trata los datos de la cuenta según su propia política:</p>
+<ul>
+<li><strong>Google y YouTube:</strong> <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de Privacidad de Google</a>.</li>
+<li><strong>Instagram:</strong> <a href="https://privacycenter.instagram.com/policy" rel="noopener noreferrer">Política de privacidad de Meta</a>.</li>
+<li><strong>TikTok:</strong> política de privacidad: <a href="https://www.tiktok.com/legal/page/eea/privacy-policy/en" rel="noopener noreferrer">EEE, Reino Unido y Suiza</a> · <a href="https://www.tiktok.com/legal/page/us/privacy-policy/en" rel="noopener noreferrer">Estados Unidos</a> · <a href="https://www.tiktok.com/legal/page/row/privacy-policy/en" rel="noopener noreferrer">resto del mundo</a>.</li>
+</ul>
+</section>
+<section id="web">
+<h2>Esta web</h2>
+<p>Esta web es estática: no usa cookies, scripts, analítica ni recursos de terceros, y no recoge datos de quienes la visitan. Está alojada en GitHub Pages; GitHub, como proveedor de alojamiento, puede registrar datos técnicos de las visitas, como la dirección IP, según su propia política de privacidad.</p>
+</section>
+<section id="cambios">
+<h2>Cambios y contacto</h2>
+<p>Si cambia lo que hace la herramienta, esta política se actualizará y se cambiará la fecha de última actualización. Para cualquier duda: <a href="mailto:akier.empresa@gmail.com">akier.empresa@gmail.com</a>.</p>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Última actualización: <time datetime="2026-10-15">15 de octubre de 2026</time>.</p>
+<p>Video Automate no está afiliada a YouTube, Google, Instagram, Meta ni TikTok, ni cuenta con su respaldo. Esos nombres pertenecen a sus respectivos propietarios.</p>
+</div>
+</footer>
+</body>
+</html>

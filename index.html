@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Video Automate es una herramienta de uso personal que publica vídeos verticales generados con IA en las cuentas propias de su titular y lee sus métricas para mejorar los vídeos siguientes.">
+<title>Video Automate</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#ffffff;
+  --fg:#1f2328;
+  --muted:#4f5864;
+  --line:#d0d7de;
+  --card:#f6f8fa;
+  --link:#0550ae;
+  --accent:#0969da;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1117;
+    --fg:#e6edf3;
+    --muted:#9da7b3;
+    --line:#30363d;
+    --card:#151b23;
+    --link:#79c0ff;
+    --accent:#58a6ff;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-wrap:break-word}
+.wrap{max-width:46rem;margin:0 auto;padding-left:1rem;padding-right:1rem}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-top:.9rem;padding-bottom:.9rem}
+.brand{font-weight:700;font-size:1.1rem;color:var(--fg);text-decoration:none}
+header nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:0;padding:0}
+header nav li{margin:0}
+header nav a[aria-current="page"]{color:var(--fg);font-weight:600;text-decoration:none}
+main{padding-top:1.75rem;padding-bottom:2.5rem}
+h1{font-size:clamp(1.6rem,6vw,2.1rem);line-height:1.2;margin:0 0 .6rem}
+h2{font-size:1.3rem;line-height:1.3;margin:2.2rem 0 .5rem}
+h3{font-size:1.07rem;line-height:1.35;margin:1.4rem 0 .3rem}
+p,ul,ol{margin:.65rem 0}
+li{margin:.35rem 0}
+a{color:var(--link);text-underline-offset:.16em;overflow-wrap:anywhere}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:2px}
+code{font:.88em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:.05em .35em;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.lead{font-size:1.1rem;color:var(--muted)}
+.meta{color:var(--muted);font-size:.92rem;margin:.4rem 0}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.75rem 1rem;margin:1.25rem 0}
+.toc p{margin:0 0 .3rem}
+.toc ol{margin:.2rem 0;padding-left:1.4rem}
+.toc li{margin:.15rem 0}
+section section{margin-top:.5rem}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+footer .wrap{padding-top:1rem;padding-bottom:1.75rem}
+footer p{margin:.4rem 0}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<a class="brand" href="index.html">Video Automate</a>
+<nav aria-label="Navegación principal">
+<ul>
+<li><a href="index.html" aria-current="page">Inicio</a></li>
+<li><a href="privacidad.html">Privacidad</a></li>
+<li><a href="terminos.html">Condiciones</a></li>
+<li><a href="en.html" lang="en" hreflang="en">English</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>Video Automate</h1>
+<p class="lead">Herramienta de uso personal que publica vídeos verticales generados con inteligencia artificial en las cuentas propias de su titular y lee sus métricas para mejorar los vídeos siguientes.</p>
+<section id="que-es">
+<h2>Qué es</h2>
+<p>Video Automate es una herramienta de software de uso personal. Genera vídeos verticales con inteligencia artificial y los publica en las cuentas propias de su titular en YouTube (Shorts), Instagram (Reels) y TikTok. Después lee las métricas de esos vídeos, como las visualizaciones, la retención o los seguidores ganados, para decidir mejor los vídeos siguientes.</p>
+<p>Usa los servicios de la API de YouTube (YouTube API Services) y las API oficiales de Instagram y TikTok, siempre con la autorización del titular.</p>
+</section>
+<section id="quien">
+<h2>Quién la usa</h2>
+<p>La usa una sola persona: el titular de la herramienta Video Automate, con sus propias cuentas. No tiene usuarios externos: no hay registro, no hay cuentas de usuario y la herramienta no se ofrece a terceros.</p>
+<p>Esta web existe porque las plataformas piden una página pública con la política de privacidad y las condiciones de las aplicaciones que usan sus API.</p>
+</section>
+<section id="que-hace">
+<h2>Qué hace y qué no hace</h2>
+<ul>
+<li>Publica vídeos solo en las cuentas del titular. No publica en cuentas de otras personas.</li>
+<li>Lee solo estadísticas de los vídeos del titular, como visualizaciones o retención. No lee datos personales de los espectadores.</li>
+<li>Guarda las claves de acceso y las métricas en el ordenador del titular.</li>
+<li>No vende datos. Solo envía cifras de rendimiento de los vídeos a los servicios de inteligencia artificial del titular, para analizarlas.</li>
+<li>Los vídeos llevan la etiqueta de contenido generado por IA donde la plataforma la ofrece.</li>
+<li>Esta web no usa cookies, scripts ni analítica.</li>
+</ul>
+</section>
+<section id="documentos">
+<h2>Documentos</h2>
+<ul>
+<li><a href="privacidad.html">Política de privacidad</a>: qué datos usa la herramienta, para qué, dónde se guardan, cómo revocar el acceso y cómo se borran.</li>
+<li><a href="terminos.html">Condiciones de uso</a>: uso personal, sin garantía y condiciones de las plataformas.</li>
+<li><a href="en.html" lang="en" hreflang="en">English version</a>: <a href="privacy.html" lang="en" hreflang="en">Privacy Policy</a> and <a href="terms.html" lang="en" hreflang="en">Terms of Use</a>.</li>
+</ul>
+</section>
+<section id="contacto">
+<h2>Contacto</h2>
+<p>Para cualquier consulta, o para pedir el borrado de datos: <a href="mailto:akier.empresa@gmail.com">akier.empresa@gmail.com</a>.</p>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Última actualización: <time datetime="2026-10-15">15 de octubre de 2026</time>.</p>
+<p>Video Automate no está afiliada a YouTube, Google, Instagram, Meta ni TikTok, ni cuenta con su respaldo. Esos nombres pertenecen a sus respectivos propietarios.</p>
+</div>
+</footer>
+</body>
+</html>
